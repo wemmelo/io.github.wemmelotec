@@ -1,0 +1,2 @@
+sec.2 class 4
+O maven através do arquivo pom.xml é responsavél pela build (construção) de todo o nosso projeto
