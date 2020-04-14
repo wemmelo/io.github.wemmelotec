@@ -8,12 +8,10 @@ import org.springframework.context.annotation.Configuration;
 public class MinhaConfiguration {
     //e as configurações são realizadas através de beans
 
-    @Bean(name = "applicationName")
+    /*@Bean(name = "applicationName")
     /*
     Esse Bean está falando para o spring criar esse objeto no contexto da aplicação
     assim eu posso utilizar ele onde eu precisar
      */
-    public String applicationName(){
-        return "Sistemas de vendas";
-    }
+    //public String applicationName(){return "Sistemas de vendas"};
 }
